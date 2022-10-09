@@ -4,4 +4,4 @@ RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|
 RUN yum update -y
 RUN yum install telnet -y
 RUN mkdir /root/docker
-COPY loveu.txt /root/docker
+#COPY loveu.txt /root/docker
